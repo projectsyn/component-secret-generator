@@ -1,3 +1,11 @@
 parameters:
   secret_generator:
     namespace: syn-secret-generator
+    charts:
+      secret-generator: 3.1.0
+    images:
+      secret-generator:
+        image: quay.io/mittwald/kubernetes-secret-generator
+        tag: 'v3.1.0@sha256:ea46685431c85de5beca93bf7bbe49a9fcc2384203eeec1e723d3ea2e5b8aaec'
+        pullPolicy: IfNotPresent
+    providers: {}
