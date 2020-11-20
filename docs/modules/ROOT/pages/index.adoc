@@ -1,0 +1,5 @@
+= secret-generator
+
+secret-generator is a Commodore component to manage secret-generator.
+
+See the xref:references/parameters.adoc[parameters] reference for further details.
