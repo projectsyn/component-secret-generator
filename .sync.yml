@@ -1,0 +1,6 @@
+:global:
+  componentName: secret-generator
+
+docs/antora.yml:
+  name: secret-generator
+  title: secret-generator
