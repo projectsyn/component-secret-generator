@@ -2,7 +2,7 @@ parameters:
   secret_generator:
     namespace: syn-secret-generator
     charts:
-      secret-generator: 3.1.0
+      secret-generator: 3.4.0
     images:
       secret-generator:
         image: quay.io/mittwald/kubernetes-secret-generator
