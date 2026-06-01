@@ -8,6 +8,6 @@ parameters:
     images:
       secret-generator:
         image: quay.io/mittwald/kubernetes-secret-generator
-        tag: 'v3.1.0@sha256:ea46685431c85de5beca93bf7bbe49a9fcc2384203eeec1e723d3ea2e5b8aaec'
+        tag: 'v3.4.1@sha256:465b8e6d046208b1334024b31c6448a150669e5c38083a23eb59341c19ef511b'
         pullPolicy: IfNotPresent
     providers: {}
